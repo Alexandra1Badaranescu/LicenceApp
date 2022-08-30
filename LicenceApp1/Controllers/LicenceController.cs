@@ -13,7 +13,7 @@ namespace LicenceApp1.Controllers
     {
         private readonly ILicenceRepository _repositoryLicence;
 
-        public LicenceController( ILicenceRepository repositoryLicence)
+        public LicenceController(ILicenceRepository repositoryLicence)
         {
             _repositoryLicence = repositoryLicence;
 
