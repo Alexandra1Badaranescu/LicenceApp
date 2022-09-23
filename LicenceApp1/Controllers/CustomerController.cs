@@ -4,8 +4,6 @@ using LicenceApp1.Models.Entities;
 using LicenceApp1.Models.DTOs;
 using LicenceApp1.Repositories.CustomerRepository;
 using LicenceApp1.Repositories.ProductRepository;
-
-
 using Microsoft.AspNetCore.Mvc;
 
 namespace LicenceApp1.Controllers
@@ -43,6 +41,7 @@ namespace LicenceApp1.Controllers
             return Ok(CustomerToReturn);
 
         }
+
         [HttpGet("{id}")]
 
         public async Task<IActionResult> GetCustomerById(int id)

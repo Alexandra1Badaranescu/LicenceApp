@@ -34,5 +34,9 @@ namespace LicenceApp1.Repositories.LicenceRepository
                 .FirstOrDefaultAsync(u => u.IdLicence.Equals(id));
         }
 
+        public Task<Licence> GetLicencesByName(string name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

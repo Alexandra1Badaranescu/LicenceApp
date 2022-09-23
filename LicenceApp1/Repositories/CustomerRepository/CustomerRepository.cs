@@ -37,5 +37,25 @@ namespace LicenceApp1.Repositories.CustomerRepository
         {
             _context.Customers.Remove(customer);
         }
+
+        public Task<Customer> GetCustomerByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Customer> GetCustomerById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Customer> Create()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Customer> Delete()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
